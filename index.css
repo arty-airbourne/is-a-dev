@@ -1,0 +1,11 @@
+.banner {
+    height: 1%;
+    min-height: 10px;
+}
+
+.banner p {
+    font-family: helvetica;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
