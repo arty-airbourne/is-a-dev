@@ -1,3 +1,7 @@
+.body {
+    margin: 0px !important;
+}
+
 .banner {
     height: 4vh;
     min-height: 20px;
@@ -6,4 +10,121 @@
 }
 
 .banner p {
-    font-family: -apple-system, Blin
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Sergoe UI Emoji";
+    color: #b8c0e0;
+    font-size: 2vh;
+    text-align: center;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    margin: 0;
+    position: absolute;
+    top: 50% !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    font-weight: 600;
+    
+    
+}
+
+.bannerCloseButton {
+    font-family: helvetica;
+    color: #b8c0e0;
+    font-size: 2vh;
+    text-align: right;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    margin: 0;
+    position: absolute;
+    top: 50% !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: fit-content;
+    background-color: #00000000;
+    border-color: #00000000;
+    float: right;
+    cursor: pointer;
+    text-align: right;
+    margin-left: 95%;
+}
+
+.webcontent {
+    width: 96vw;
+    height: 100vh;
+    background-color: #24273a;
+}
+
+.menubar {
+    float: left;
+    height: 96vh;
+    overflow: scroll;
+    width: 0vw;
+    background-color: #363a4f;
+    border-radius: 100px;
+    left: -10vw;
+    position: absolute;
+    transition: width 0.5s ease-in-out 0s;
+    overflow-x: hidden;
+}
+
+.topNav.topNav--hide {
+    margin-left: calc(80vw - 40px);
+    width: calc(8vh + 40px);
+
+}
+
+.menubar.menubar--open {
+    width: 75vw;
+}
+
+.topNav {
+    width: 96vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    border-radius: 58px;
+    height: 7vh;
+    background-color: #363a4f;
+    position: absolute;
+    transition: width 0.5s ease-in-out 0s, margin-left 0.5s ease-in-out 0s;
+    overflow: hidden;
+}
+
+.PageName {
+    height: 100%;
+    width: 50vw;
+    float: left;
+    top: 50% !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: fit-content;
+    position: relative;
+    left: 40px;
+}
+
+
+.BarImg {
+    height: 5vh;
+    width: 5vh;
+    float: right;
+    top: 50% !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+}
+
+
+
+.menuBarButton {
+    height: 5vh;
+    width: 5vh;
+    float: right;
+    top: 50% !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    right: 40px;
+    cursor: pointer;
+}

@@ -3,10 +3,18 @@
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
 </head>
-<body style="margin: 0px !important;/*! margin-top: -10px !important; */">
+<body>
     <div class="banner" id="banner">
-        <p>THIS WEBSITE UNDER CONSTRUCTION</p><button style="font-family: helvetica;color: #b8c0e0;font-size: 2vh;text-align: right;position: relative;top: auto;bottom: auto;margin: 0;position: absolute;top: 50% !important;-ms-transform: translateY(-50%);transform: translateY(-50%);width: fit-content;background-color: #00000000;border-color: #00000000;float: right;cursor: pointer;text-align: right;margin-left: 95%;" onclick="removeBanner()">x</button>
+        <p>THIS WEBSITE UNDER CONSTRUCTION</p>
+        <button class="bannerCloseButton" onclick="removeBanner()">x</button>
     </div>
-    <div class="menubar"></div>
-    <div class="webcontent" style="width: 100vw;height: 96vh;background-color: #24273a;"></div>
+    <div class="menubar" id="menuBar"></div>
+    <div class="webcontent" id="webcontent">
+        <div class="topNav" id="topNav">
+            <div class="PageName"> <p class="MainText"> Arty </p></div>
+            <div class="menuBarButton" id="menuBarButtonJS" onmouseover="changeBarIconOn();" onmouseleave="changeBarIconOff();">
+                <img id="BarImg" class="BarImg" src="https://dv.artyworks.xyz/imageassets/bar.png">
+            </div>
+        </div>
+    </div>
 </body><style type="text/css"></style></html>
