@@ -1,11 +1,9 @@
 .banner {
-    height: 1%;
-    min-height: 10px;
+    height: 4vh;
+    min-height: 20px;
+    background-color: #494d64;
+    position: relative;
 }
 
 .banner p {
-    font-family: helvetica;
-    color: black;
-    font-size: 10px;
-    text-align: center;
-}
+    font-family: -apple-system, Blin
