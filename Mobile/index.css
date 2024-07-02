@@ -51,9 +51,12 @@
 }
 
 .webcontent {
-    width: 100vw;
+    width: 101vw;
     height: 120vh;
     background-color: #24273a;
+    /* overflow-x: hidden; */
+    position: relative;
+    left: 1vw;
 }
 
 .menubar {
