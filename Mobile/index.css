@@ -62,7 +62,7 @@ body {
 
 .menubar {
     float: left;
-    height: 96vh;
+    height: max-content;
     overflow: scroll;
     width: 0vw;
     background-color: #363a4f;
