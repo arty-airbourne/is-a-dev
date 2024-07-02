@@ -7,6 +7,7 @@ body {
     min-height: 20px;
     background-color: #494d64;
     position: relative;
+    width: 100vw;
 }
 
 .banner p {
@@ -17,12 +18,12 @@ body {
     position: relative;
     top: auto;
     bottom: auto;
-    margin: 0;
+    margin: 0px;
     position: absolute;
     top: 50% !important;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 100%;
+    width: 100vw;
     font-weight: 600;
     
     
