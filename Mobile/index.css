@@ -1,4 +1,4 @@
-.body {
+body {
     margin: 0px !important;
 }
 
@@ -56,7 +56,6 @@
     background-color: #24273a;
     overflow-x: hidden; 
     position: relative;
-    left: 1vw;
 }
 
 .menubar {
@@ -75,6 +74,7 @@
     border-top: #00000000;
     border-bottom: #00000000;
     border-style: solid;
+    z-index: 999;
 
 }
 
