@@ -62,7 +62,7 @@ body {
 
 .menubar {
     float: left;
-    height: max-content;
+    height: 100%;
     overflow: scroll;
     width: 0vw;
     background-color: #363a4f;
@@ -142,4 +142,9 @@ body {
     position: relative;
     right: 40px;
     cursor: pointer;
+}
+
+
+.PageNameMenu {
+
 }
