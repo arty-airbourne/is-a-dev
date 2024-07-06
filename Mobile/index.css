@@ -1,6 +1,7 @@
 body {
     margin: 0px !important;
     background-color: #25263a;
+    height: 100vh;
 }
 
 .banner {
@@ -134,7 +135,7 @@ body {
     background-color: #363a4f;
     border-radius: 100px;
     left: -10vw;
-    position: absolute;
+    position: fixed;
     transition: width 0.5s ease-in-out 0s;
     overflow-x: hidden;
     border-right: #ffffff15;
@@ -164,7 +165,7 @@ body {
     border-radius: 58px;
     height: 7vh;
     background-color: #363a4f;
-    position: absolute;
+    position: fixed;
     transition: width 0.5s ease-in-out 0s, margin-left 0.5s ease-in-out 0s;
     overflow: hidden;
     z-index: 999;
