@@ -3,7 +3,11 @@
     <head>
         <script> 
         // not configured desktop yet
+        if (UrlParams.get('hideBanner') = 'true') {
+            window.location.replace("./Mobile/about.html?hideBanner=true");
+        } else {
             window.location.replace("./Mobile/about.html");
+        }
         </script>
     </head>
 </html>

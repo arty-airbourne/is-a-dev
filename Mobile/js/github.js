@@ -1,8 +1,16 @@
 function removeBanner() {
     document.getElementById("banner").style.display = "none";
     document.getElementById("menuBar").style.height = "100vh";
+    document.getElementById("HomeText").href = '../index.html?hideBanner=true';
+    document.getElementById("MyWorksText").href = '../myworks.html?hideBanner=true';
+    document.getElementById("GithubText").href = '../github.html?hideBanner=true';
+    document.getElementById("ContactText").href = '../contact.html?hideBanner=true';
+    document.getElementById("sitetext").href = '../about.html?hideBanner=true';
 }
 
+if (UrlParams.get('hideBanner') = 'true') {
+    removeBanner();
+}
 
 function closeBar() {
     if (document.getElementById("menuBar").style.Width == "75vw") {

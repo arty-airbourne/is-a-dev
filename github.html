@@ -2,8 +2,11 @@
 <html> 
     <head>
         <script> 
-        // not configured desktop yet
-            window.location.replace("./Mobile/github.html");
+            if (UrlParams.get('hideBanner') = 'true') {
+                window.location.replace("./Mobile/github.html?hideBanner=true");    
+            } else {
+                window.location.replace("./Mobile/github.html");
+            }
         </script>
     </head>
 </html>
