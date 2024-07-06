@@ -179,7 +179,7 @@ body {
     width: 0vw;
     background-color: #363a4f;
     border-radius: 100px;
-    left: -10vw;
+    left: -110px;
     position: fixed;
     transition: width 0.5s ease-in-out 0s;
     overflow-x: hidden;
@@ -256,7 +256,3 @@ body {
     cursor: pointer;
 }
 
-
-.PageNameMenu {
-
-}
