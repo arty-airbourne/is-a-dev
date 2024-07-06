@@ -43,7 +43,8 @@ body {
 .MyWorks {
     margin-top: 5vh;
     height: 150px;
-    Width: 100%;
+    Width: 75vw;
+    
     font-family: Helvetica;
     color: #b8c0e0;
     font-weight: bolder;
