@@ -32,7 +32,7 @@ body {
 
 .Buffer {
     margin-top: 2vh;
-    height: calc(88.12% - 600px);
+    height: calc(85.96% - 750px);
     Width: 100%;
     font-family: Helvetica;
     color: #b8c0e0;
@@ -40,18 +40,18 @@ body {
     font-size: 4vh;
   }
 
-.MyWorks {
+.MenuTitle {
     margin-top: 5vh;
     height: 150px;
     Width: 75vw;
-    
+
     font-family: Helvetica;
     color: #b8c0e0;
     font-weight: bolder;
     font-size: 4vh;
 }
 
-.MyWorksText {
+.MenuTitleText {
     margin-left: 15vw;
     border-bottom: solid;
     width: fit-content;
