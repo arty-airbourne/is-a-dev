@@ -1,6 +1,5 @@
 function removeBanner() {
     document.getElementById("banner").style.display = "none";
-    document.getElementById("webcontent").style.height = "100vh";
     document.getElementById("menuBar").style.height = "100vh";
 }
 
