@@ -30,6 +30,13 @@ body {
     
 }
 
+.MenuClickableText {
+    margin-left: 15vw;
+    /* border-bottom: solid; 
+     width: fit-content;
+    border-width: 0.5vh; */
+}
+
 .Buffer {
     margin-top: 2vh;
     height: calc(85.96% - 750px);
