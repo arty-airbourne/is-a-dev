@@ -79,6 +79,7 @@ body {
 .MenuClickableText {
     margin-left: 15vw;
     overflow-x: hidden;
+    text-decoration: none;
     /* border-bottom: solid; 
      width: fit-content;
     border-width: 0.5vh; */
