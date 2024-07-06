@@ -31,6 +31,51 @@ body {
     
 }
 
+.MyWorksText {
+    color: #e78284;
+    transition: border-left 0.5s ease 0s;
+}
+
+.GithubText {
+    color: #ef9f76;
+    transition: border-right 0.5s ease 0s;
+}
+
+.ContactText {
+    color: #e5c890;
+    transition: border-right 0.5s ease 0s;
+}
+
+.sitetext {
+    color: #a6d189;
+    transition: border-right 0.5s ease 0s;
+}
+
+.MyWorksText:hover {
+    border-left-style: solid !important;
+    border-style: none;
+    border-left: 1%;
+}
+
+.GithubText:hover {
+    border-left-style: solid !important;
+    border-style: none;
+    border-left: 1%;
+}
+
+.ContactText:hover {
+    border-left-style: solid !important;
+    border-style: none;
+    border-left: 1%;
+}
+
+.sitetext:hover {
+    border-left-style: solid !important;
+    border-style: none;
+    border-left: 1%;
+}
+
+
 .MenuClickableText {
     margin-left: 15vw;
     overflow-x: hidden;
