@@ -30,6 +30,60 @@ body {
     
 }
 
+.Buffer {
+    margin-top: 2vh;
+    height: calc(88.12% - 600px);
+    Width: 100%;
+    font-family: Helvetica;
+    color: #b8c0e0;
+    font-weight: bolder;
+    font-size: 4vh;
+  }
+
+.MyWorks {
+    margin-top: 5vh;
+    height: 150px;
+    Width: 100%;
+    font-family: Helvetica;
+    color: #b8c0e0;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+
+.MyWorksText {
+    margin-left: 15vw;
+    border-bottom: solid;
+    width: fit-content;
+    border-width: 0.5vh;
+}
+
+.MenuClickable {
+    margin-top: 2vh;
+    height: 150px;
+    Width: 100%;
+    font-family: Helvetica;
+    color: #b8c0e0;
+    font-weight: bolder;
+    font-size: 4vh; 
+}
+
+
+.AboutThisSite {
+    height: 150px;
+    width: 100%;
+    font-family: Helvetica;
+    color: #b8c0e0;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+
+.sitetext {
+    float: right;
+    height: 50%;
+    margin-top: 48px;
+    margin-right: 27px;
+}
+
 .bannerCloseButton {
     font-family: helvetica;
     color: #b8c0e0;
