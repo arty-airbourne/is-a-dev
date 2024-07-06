@@ -32,6 +32,7 @@ body {
 
 .MenuClickableText {
     margin-left: 15vw;
+    overflow-x: hidden;
     /* border-bottom: solid; 
      width: fit-content;
     border-width: 0.5vh; */
@@ -39,14 +40,16 @@ body {
 
 .Buffer {
     margin-top: 2vh;
-    height: calc(85.96% - 750px);
+    height: calc(84.88% - 750px);
     Width: 100%;
     font-family: Helvetica;
     color: #b8c0e0;
     font-weight: bolder;
     font-size: 4vh;
   }
-
+.MyWorks {
+    margin-top: 5vh !important;
+}
 .MenuTitle {
     margin-top: 5vh;
     height: 150px;
@@ -68,7 +71,7 @@ body {
 .MenuClickable {
     margin-top: 2vh;
     height: 150px;
-    Width: 100%;
+    Width: 75vw;
     font-family: Helvetica;
     color: #b8c0e0;
     font-weight: bolder;
@@ -86,10 +89,10 @@ body {
 }
 
 .sitetext {
-    float: right;
+    float: left;
     height: 50%;
-    margin-top: 48px;
-    margin-right: 27px;
+    margin-top: 4vh;
+    margin-left: 15vw;
 }
 
 .bannerCloseButton {
