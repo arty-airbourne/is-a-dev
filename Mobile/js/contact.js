@@ -1,5 +1,5 @@
 const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
+const UrlParams = new URLSearchParams(queryString);
 
 function removeBanner() {
     document.getElementById("banner").style.display = "none";
