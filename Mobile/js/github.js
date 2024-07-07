@@ -1,4 +1,5 @@
 const queryString = window.location.search;
+console.log(queryString);
 const UrlParams = new URLSearchParams(queryString);
 
 function removeBanner() {
