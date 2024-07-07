@@ -1,5 +1,5 @@
 const queryString = window.location.search;
-const UrlParams = new URLSearchParams(queryString);
+console.log(queryString);
 
 function removeBanner() {
     document.getElementById("banner").style.display = "none";
@@ -11,9 +11,11 @@ function removeBanner() {
     document.getElementById("sitetext").href = '../about.html?hideBanner=true';
 }
 
-if (UrlParams.get('hideBanner') = 'true') {
-    removeBanner();
-}
+window.onload = function() {
+    if (queryString == '?hideBanner=true') {
+        removeBanner();
+    }
+    }
 
 
 function closeBar() {

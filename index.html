@@ -2,8 +2,11 @@
 <html> 
     <head>
         <script> 
+        const queryString = window.location.search;
+        console.log(queryString);
+
         // not configured desktop yet
-        if (UrlParams.get('hideBanner') = 'true') {
+        if (queryString = '?hideBanner=true') {
             window.location.replace("./Mobile/index.html?hideBanner=true");
         } else {
             window.location.replace("./Mobile/index.html");
