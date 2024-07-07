@@ -237,9 +237,9 @@ body {
     top: 50% !important;
     -ms-transform: translateY(-90%);
     transform: translateY(-90%);
-    width: fit-content;
+    width: max-content;
     position: relative;
-    left: -70vw;
+    left: -47vw;
     font-family: helvetica;
     color: white;
     font-size: 70px;
