@@ -9,10 +9,12 @@ function removeBanner() {
     document.getElementById("GithubText").href = '../github.html?hideBanner=true';
     document.getElementById("ContactText").href = '../contact.html?hideBanner=true';
     document.getElementById("sitetext").href = '../about.html?hideBanner=true';
-}
+};
 
+window.onload = function() {
 if (queryString == '?hideBanner=true') {
     removeBanner();
+}
 }
 
 function closeBar() {
