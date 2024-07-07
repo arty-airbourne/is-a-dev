@@ -96,6 +96,11 @@ body {
     border-width: 0.5vh; */
 }
 
+.sitetext {
+    width: 75vw;
+}
+
+
 .Buffer {
     margin-top: 2vh;
     height: calc(81.72% - 900px);

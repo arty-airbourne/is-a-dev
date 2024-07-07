@@ -74,6 +74,11 @@ body {
     border-left: 1%;
 }
 
+.sitetext {
+    width: 75vw;
+}
+
+
 .ContactText:hover {
     border-left-style: solid !important;
     border-style: none;

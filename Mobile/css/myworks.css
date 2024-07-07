@@ -86,6 +86,9 @@ body {
     border-left: 1%;
 }
 
+.sitetext {
+    width: 75vw;
+}
 
 .MenuClickableText {
     margin-left: 15vw;
