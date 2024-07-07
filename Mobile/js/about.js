@@ -1,4 +1,7 @@
 
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
 function removeBanner() {
     document.getElementById("banner").style.display = "none";
     document.getElementById("menuBar").style.height = "100vh";
