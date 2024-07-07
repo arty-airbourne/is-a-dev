@@ -14,4 +14,4 @@ The Desktop Site ( x. ) is located at:
 
 Thanks for using my code,
 
-     Desariah AirBourne
+     Arty :)
