@@ -206,6 +206,7 @@ body {
     border-bottom: #00000000;
     border-style: solid;
     z-index: 999;
+    box-shadow: 0 0 90px #00000040;
 
 }
 
@@ -231,6 +232,7 @@ body {
     transition: width 0.5s ease-in-out 0s, margin-left 0.5s ease-in-out 0s;
     overflow: hidden;
     z-index: 999;
+    box-shadow: 0 0 90px #00000040;
 }
 
 .PageName {
