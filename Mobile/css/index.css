@@ -236,18 +236,20 @@ body {
 }
 
 .PageName {
-    width: 50vw;
-    float: Right;
-    top: 50% !important;
-    -ms-transform: translateY(-90%);
-    transform: translateY(-90%);
-    width: fit-content;
+    /*! width: 50vw; */
+    /*! float: Right; */
+    bottom: 50% !important;
+    /*! -ms-transform: translateY(-90%); */
+    /*! transform: translateY(5vh%); */
+    /*! width: fit-content; */
     position: relative;
-    left: -67vw;
+    left: -87vw;
     font-family: helvetica;
     color: white;
     font-size: 70px;
     font-weight: bolder;
+    /*! height: fit-content; */
+    /*! justify-content: left; */
 }
 
 
@@ -273,6 +275,7 @@ body {
     position: relative;
     right: 40px;
     cursor: pointer;
+    display: flex;
 }
 
 
@@ -321,17 +324,14 @@ body {
     position: absolute;
     height: 50vh;
     width: 80vw;
-
     
     
-    
-    
-    
-    background: #525252;
+    background: #939ab7;
     margin: 1vh;
     padding: 1vh;
-    border-radius: 10px;
-    box-shadow: 4px 4px 5px 0 rgb(25 25 25/84%)
+    border-radius: 105px;
+    box-shadow: 4px 4px 5px 0 rgb(25 25 25/84%);
+    margin-right: 7.5vw;
 }
 
 .a8 {
@@ -364,3 +364,46 @@ body {
     right: 972px;
     animation: right 50ms ease-in-out 0ms;
 }
+
+.commit-message {
+    color: white;
+  font-size: 60px;
+  margin-left: 4%;
+  font-weight: bold;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-top: 4%;
+}
+
+.commit-details {
+    color: white;
+  font-size: 40px;
+  margin-left: 4%;
+  font-weight: bold;
+}
+
+.author-info {
+    color: white;
+    margin-top: calc(13vh - 4%);
+    border-radius: 90px;
+    justify-content: right;
+    display: flex;
+
+}
+
+img {
+    border-radius: 90px
+}
+
+.author-info span {
+    display: none;
+}
+
+.ContentCarousel {
+    height: 66vh;
+}
+
+.loading {
+    display: none;
+}
+
