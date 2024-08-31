@@ -71,106 +71,106 @@ function delay(ms) {
 
 function loop8() {
     document.getElementsByClassName("a6")[0].style.display = "block";
-    document.getElementsByClassName("a8")[0].style.right = "156vh";
-    document.getElementsByClassName("a1")[0].style.right = "104vh";
-    document.getElementsByClassName("a2")[0].style.right = "52vh";
+    document.getElementsByClassName("a8")[0].style.right = "154vh";
+    document.getElementsByClassName("a1")[0].style.right = "102vh";
+    document.getElementsByClassName("a2")[0].style.right = "50vh";
     document.getElementsByClassName("a3")[0].style.right = "0px";
-    document.getElementsByClassName("a4")[0].style.right = "-52vh";
-    document.getElementsByClassName("a5")[0].style.right = "-104vh";
-    document.getElementsByClassName("a6")[0].style.right = "-156vh";
+    document.getElementsByClassName("a4")[0].style.right = "-50vh";
+    document.getElementsByClassName("a5")[0].style.right = "-102vh";
+    document.getElementsByClassName("a6")[0].style.right = "-154vh";
     document.getElementsByClassName("a7")[0].style.display = "none";
-    document.getElementsByClassName("a7")[0].style.right = "-208vh";
+    document.getElementsByClassName("a7")[0].style.right = "-206vh";
 }
 
 function loop7() {
     document.getElementsByClassName("a5")[0].style.display = "block";
-    document.getElementsByClassName("a7")[0].style.right = "156vh";
-    document.getElementsByClassName("a8")[0].style.right = "104vh";
-    document.getElementsByClassName("a1")[0].style.right = "52vh";
+    document.getElementsByClassName("a7")[0].style.right = "154vh";
+    document.getElementsByClassName("a8")[0].style.right = "102vh";
+    document.getElementsByClassName("a1")[0].style.right = "50vh";
     document.getElementsByClassName("a2")[0].style.right = "0px";
-    document.getElementsByClassName("a3")[0].style.right = "-52vh";
-    document.getElementsByClassName("a4")[0].style.right = "-104vh";
-    document.getElementsByClassName("a5")[0].style.right = "-156vh";
+    document.getElementsByClassName("a3")[0].style.right = "-50vh";
+    document.getElementsByClassName("a4")[0].style.right = "-102vh";
+    document.getElementsByClassName("a5")[0].style.right = "-154vh";
     document.getElementsByClassName("a6")[0].style.display = "none";
-    document.getElementsByClassName("a6")[0].style.right = "-208vh";
+    document.getElementsByClassName("a6")[0].style.right = "-206vh";
 }
 
 function loop6() {
     document.getElementsByClassName("a4")[0].style.display = "block";
-    document.getElementsByClassName("a6")[0].style.right = "156vh";
-    document.getElementsByClassName("a7")[0].style.right = "104vh";
-    document.getElementsByClassName("a8")[0].style.right = "52vh";
+    document.getElementsByClassName("a6")[0].style.right = "154vh";
+    document.getElementsByClassName("a7")[0].style.right = "102vh";
+    document.getElementsByClassName("a8")[0].style.right = "50vh";
     document.getElementsByClassName("a1")[0].style.right = "0px";
-    document.getElementsByClassName("a2")[0].style.right = "-52vh";
-    document.getElementsByClassName("a3")[0].style.right = "-104vh";
-    document.getElementsByClassName("a4")[0].style.right = "-156vh";
+    document.getElementsByClassName("a2")[0].style.right = "-50vh";
+    document.getElementsByClassName("a3")[0].style.right = "-102vh";
+    document.getElementsByClassName("a4")[0].style.right = "-154vh";
     document.getElementsByClassName("a5")[0].style.display = "none";
-    document.getElementsByClassName("a5")[0].style.right = "-208vh";
+    document.getElementsByClassName("a5")[0].style.right = "-206vh";
 }
 
 function loop5() {
     document.getElementsByClassName("a3")[0].style.display = "block";
-    document.getElementsByClassName("a5")[0].style.right = "156vh";
-    document.getElementsByClassName("a6")[0].style.right = "104vh";
-    document.getElementsByClassName("a7")[0].style.right = "52vh";
+    document.getElementsByClassName("a5")[0].style.right = "154vh";
+    document.getElementsByClassName("a6")[0].style.right = "102vh";
+    document.getElementsByClassName("a7")[0].style.right = "50vh";
     document.getElementsByClassName("a8")[0].style.right = "0px";
-    document.getElementsByClassName("a1")[0].style.right = "-52vh";
-    document.getElementsByClassName("a2")[0].style.right = "-104vh";
-    document.getElementsByClassName("a3")[0].style.right = "-156vh";
+    document.getElementsByClassName("a1")[0].style.right = "-50vh";
+    document.getElementsByClassName("a2")[0].style.right = "-102vh";
+    document.getElementsByClassName("a3")[0].style.right = "-154vh";
     document.getElementsByClassName("a4")[0].style.display = "none";
-    document.getElementsByClassName("a4")[0].style.right = "-208vh";
+    document.getElementsByClassName("a4")[0].style.right = "-206vh";
 }
 
 function loop4() {
     document.getElementsByClassName("a2")[0].style.display = "block";
-    document.getElementsByClassName("a4")[0].style.right = "156vh";
-    document.getElementsByClassName("a5")[0].style.right = "104vh";
-    document.getElementsByClassName("a6")[0].style.right = "52vh";
+    document.getElementsByClassName("a4")[0].style.right = "154vh";
+    document.getElementsByClassName("a5")[0].style.right = "102vh";
+    document.getElementsByClassName("a6")[0].style.right = "50vh";
     document.getElementsByClassName("a7")[0].style.right = "0px";
-    document.getElementsByClassName("a8")[0].style.right = "-52vh";
-    document.getElementsByClassName("a1")[0].style.right = "-104vh";
-    document.getElementsByClassName("a2")[0].style.right = "-156vh";
+    document.getElementsByClassName("a8")[0].style.right = "-50vh";
+    document.getElementsByClassName("a1")[0].style.right = "-102vh";
+    document.getElementsByClassName("a2")[0].style.right = "-154vh";
     document.getElementsByClassName("a3")[0].style.display = "none";
-    document.getElementsByClassName("a3")[0].style.right = "-208vh";
+    document.getElementsByClassName("a3")[0].style.right = "-206vh";
 }
 
 function loop3() {
     document.getElementsByClassName("a1")[0].style.display = "block";
-    document.getElementsByClassName("a3")[0].style.right = "156vh";
-    document.getElementsByClassName("a4")[0].style.right = "104vh";
-    document.getElementsByClassName("a5")[0].style.right = "52vh";
+    document.getElementsByClassName("a3")[0].style.right = "154vh";
+    document.getElementsByClassName("a4")[0].style.right = "102vh";
+    document.getElementsByClassName("a5")[0].style.right = "50vh";
     document.getElementsByClassName("a6")[0].style.right = "0px";
-    document.getElementsByClassName("a7")[0].style.right = "-52vh";
-    document.getElementsByClassName("a8")[0].style.right = "-104vh";
-    document.getElementsByClassName("a1")[0].style.right = "-156vh";
+    document.getElementsByClassName("a7")[0].style.right = "-50vh";
+    document.getElementsByClassName("a8")[0].style.right = "-102vh";
+    document.getElementsByClassName("a1")[0].style.right = "-154vh";
     document.getElementsByClassName("a2")[0].style.display = "none";
-    document.getElementsByClassName("a2")[0].style.right = "-208vh";
+    document.getElementsByClassName("a2")[0].style.right = "-206vh";
 }
 
 function loop2() {
     document.getElementsByClassName("a8")[0].style.display = "block";
-    document.getElementsByClassName("a2")[0].style.right = "156vh";
-    document.getElementsByClassName("a3")[0].style.right = "104vh";
-    document.getElementsByClassName("a4")[0].style.right = "52vh";
+    document.getElementsByClassName("a2")[0].style.right = "154vh";
+    document.getElementsByClassName("a3")[0].style.right = "102vh";
+    document.getElementsByClassName("a4")[0].style.right = "50vh";
     document.getElementsByClassName("a5")[0].style.right = "0px";
-    document.getElementsByClassName("a6")[0].style.right = "-52vh";
-    document.getElementsByClassName("a7")[0].style.right = "-104vh";
-    document.getElementsByClassName("a8")[0].style.right = "-156vh";
+    document.getElementsByClassName("a6")[0].style.right = "-50vh";
+    document.getElementsByClassName("a7")[0].style.right = "-102vh";
+    document.getElementsByClassName("a8")[0].style.right = "-154vh";
     document.getElementsByClassName("a1")[0].style.display = "none";
-    document.getElementsByClassName("a1")[0].style.right = "-208vh";
+    document.getElementsByClassName("a1")[0].style.right = "-206vh";
 }
 
 function loop1() {
     document.getElementsByClassName("a7")[0].style.display = "block";
-    document.getElementsByClassName("a1")[0].style.right = "156vh";
-    document.getElementsByClassName("a2")[0].style.right = "104vh";
-    document.getElementsByClassName("a3")[0].style.right = "52vh";
+    document.getElementsByClassName("a1")[0].style.right = "154vh";
+    document.getElementsByClassName("a2")[0].style.right = "102vh";
+    document.getElementsByClassName("a3")[0].style.right = "50vh";
     document.getElementsByClassName("a4")[0].style.right = "0px";
-    document.getElementsByClassName("a5")[0].style.right = "-52vh";
-    document.getElementsByClassName("a6")[0].style.right = "-104vh";
-    document.getElementsByClassName("a7")[0].style.right = "-156vh";
+    document.getElementsByClassName("a5")[0].style.right = "-50vh";
+    document.getElementsByClassName("a6")[0].style.right = "-102vh";
+    document.getElementsByClassName("a7")[0].style.right = "-154vh";
     document.getElementsByClassName("a8")[0].style.display = "none";
-    document.getElementsByClassName("a8")[0].style.right = "-208vh";
+    document.getElementsByClassName("a8")[0].style.right = "-206vh";
 }
 
 async function runLoad() {
