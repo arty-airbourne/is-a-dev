@@ -319,8 +319,8 @@ body {
 
 .box {
     position: absolute;
-    height: 287.5px;
-    width: 300px;
+    height: 50vh;
+    width: 80vw;
 
     
     
@@ -328,8 +328,8 @@ body {
     
     
     background: #525252;
-    margin: 1em;
-    padding: .5em;
+    margin: 1vh;
+    padding: 1vh;
     border-radius: 10px;
     box-shadow: 4px 4px 5px 0 rgb(25 25 25/84%)
 }
