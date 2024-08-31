@@ -311,3 +311,56 @@ body {
     width: 100%;
     background-color: #363a4f;
 }
+
+.line {
+    overflow-y: scroll;
+    display:inline-flex;
+}
+
+.box {
+    position: absolute;
+    height: 287.5px;
+    width: 300px;
+
+    
+    
+    
+    
+    
+    background: #525252;
+    margin: 1em;
+    padding: .5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0 rgb(25 25 25/84%)
+}
+
+.a8 {
+    right: -1296px;
+    animation: right 50ms ease-in-out 0ms;
+}
+
+.a7 {
+    right: -972px;
+    animation: right 50ms ease-in-out 0ms;
+}
+
+.a6 {
+    right: -648px;
+    animation: right 50ms ease-in-out 0ms;
+}
+.a5 {
+    right: -324px;
+    animation: right 50ms ease-in-out 0ms;
+}.a4 {
+    right: 0px;
+    animation: right 50ms ease-in-out 0ms;
+}.a3 {
+    right: 324px;
+    animation: right 50ms ease-in-out 0ms;
+}.a2 {
+    right: 648px;
+    animation: right 50ms ease-in-out 0ms;
+}.a1 {
+    right: 972px;
+    animation: right 50ms ease-in-out 0ms;
+}

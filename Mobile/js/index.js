@@ -64,3 +64,135 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById("menuBar").style.width = "0vw";
     };
 }
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function loop8() {
+    document.getElementsByClassName("a6")[0].style.display = "block";
+    document.getElementsByClassName("a8")[0].style.right = "972px";
+    document.getElementsByClassName("a1")[0].style.right = "648px";
+    document.getElementsByClassName("a2")[0].style.right = "324px";
+    document.getElementsByClassName("a3")[0].style.right = "0px";
+    document.getElementsByClassName("a4")[0].style.right = "-324px";
+    document.getElementsByClassName("a5")[0].style.right = "-648px";
+    document.getElementsByClassName("a6")[0].style.right = "-972px";
+    document.getElementsByClassName("a7")[0].style.display = "none";
+    document.getElementsByClassName("a7")[0].style.right = "-1296px";
+}
+
+function loop7() {
+    document.getElementsByClassName("a5")[0].style.display = "block";
+    document.getElementsByClassName("a7")[0].style.right = "972px";
+    document.getElementsByClassName("a8")[0].style.right = "648px";
+    document.getElementsByClassName("a1")[0].style.right = "324px";
+    document.getElementsByClassName("a2")[0].style.right = "0px";
+    document.getElementsByClassName("a3")[0].style.right = "-324px";
+    document.getElementsByClassName("a4")[0].style.right = "-648px";
+    document.getElementsByClassName("a5")[0].style.right = "-972px";
+    document.getElementsByClassName("a6")[0].style.display = "none";
+    document.getElementsByClassName("a6")[0].style.right = "-1296px";
+}
+
+function loop6() {
+    document.getElementsByClassName("a4")[0].style.display = "block";
+    document.getElementsByClassName("a6")[0].style.right = "972px";
+    document.getElementsByClassName("a7")[0].style.right = "648px";
+    document.getElementsByClassName("a8")[0].style.right = "324px";
+    document.getElementsByClassName("a1")[0].style.right = "0px";
+    document.getElementsByClassName("a2")[0].style.right = "-324px";
+    document.getElementsByClassName("a3")[0].style.right = "-648px";
+    document.getElementsByClassName("a4")[0].style.right = "-972px";
+    document.getElementsByClassName("a5")[0].style.display = "none";
+    document.getElementsByClassName("a5")[0].style.right = "-1296px";
+}
+
+function loop5() {
+    document.getElementsByClassName("a3")[0].style.display = "block";
+    document.getElementsByClassName("a5")[0].style.right = "972px";
+    document.getElementsByClassName("a6")[0].style.right = "648px";
+    document.getElementsByClassName("a7")[0].style.right = "324px";
+    document.getElementsByClassName("a8")[0].style.right = "0px";
+    document.getElementsByClassName("a1")[0].style.right = "-324px";
+    document.getElementsByClassName("a2")[0].style.right = "-648px";
+    document.getElementsByClassName("a3")[0].style.right = "-972px";
+    document.getElementsByClassName("a4")[0].style.display = "none";
+    document.getElementsByClassName("a4")[0].style.right = "-1296px";
+}
+
+function loop4() {
+    document.getElementsByClassName("a2")[0].style.display = "block";
+    document.getElementsByClassName("a4")[0].style.right = "972px";
+    document.getElementsByClassName("a5")[0].style.right = "648px";
+    document.getElementsByClassName("a6")[0].style.right = "324px";
+    document.getElementsByClassName("a7")[0].style.right = "0px";
+    document.getElementsByClassName("a8")[0].style.right = "-324px";
+    document.getElementsByClassName("a1")[0].style.right = "-648px";
+    document.getElementsByClassName("a2")[0].style.right = "-972px";
+    document.getElementsByClassName("a3")[0].style.display = "none";
+    document.getElementsByClassName("a3")[0].style.right = "-1296px";
+}
+
+function loop3() {
+    document.getElementsByClassName("a1")[0].style.display = "block";
+    document.getElementsByClassName("a3")[0].style.right = "972px";
+    document.getElementsByClassName("a4")[0].style.right = "648px";
+    document.getElementsByClassName("a5")[0].style.right = "324px";
+    document.getElementsByClassName("a6")[0].style.right = "0px";
+    document.getElementsByClassName("a7")[0].style.right = "-324px";
+    document.getElementsByClassName("a8")[0].style.right = "-648px";
+    document.getElementsByClassName("a1")[0].style.right = "-972px";
+    document.getElementsByClassName("a2")[0].style.display = "none";
+    document.getElementsByClassName("a2")[0].style.right = "-1296px";
+}
+
+function loop2() {
+    document.getElementsByClassName("a8")[0].style.display = "block";
+    document.getElementsByClassName("a2")[0].style.right = "972px";
+    document.getElementsByClassName("a3")[0].style.right = "648px";
+    document.getElementsByClassName("a4")[0].style.right = "324px";
+    document.getElementsByClassName("a5")[0].style.right = "0px";
+    document.getElementsByClassName("a6")[0].style.right = "-324px";
+    document.getElementsByClassName("a7")[0].style.right = "-648px";
+    document.getElementsByClassName("a8")[0].style.right = "-972px";
+    document.getElementsByClassName("a1")[0].style.display = "none";
+    document.getElementsByClassName("a1")[0].style.right = "-1296px";
+}
+
+function loop1() {
+    document.getElementsByClassName("a7")[0].style.display = "block";
+    document.getElementsByClassName("a1")[0].style.right = "972px";
+    document.getElementsByClassName("a2")[0].style.right = "648px";
+    document.getElementsByClassName("a3")[0].style.right = "324px";
+    document.getElementsByClassName("a4")[0].style.right = "0px";
+    document.getElementsByClassName("a5")[0].style.right = "-324px";
+    document.getElementsByClassName("a6")[0].style.right = "-648px";
+    document.getElementsByClassName("a7")[0].style.right = "-972px";
+    document.getElementsByClassName("a8")[0].style.display = "none";
+    document.getElementsByClassName("a8")[0].style.right = "-1296px";
+}
+
+async function runLoad() {
+    while (true) {
+        loop1();
+        await delay(3000);
+        loop2();
+        await delay(3000);
+        loop3();
+        await delay(3000);
+        loop4();
+        await delay(3000);
+        loop5();
+        await delay(3000);
+        loop6();
+        await delay(3000);
+        loop7();
+        await delay(3000);
+        loop8();
+    }
+}
+
+window.addEventListener("load", (event) => {
+    runLoad();
+});
